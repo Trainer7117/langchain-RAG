@@ -1,0 +1,12 @@
+SolarFlow Service Alert SF-ALERT-014
+Version: 1.0
+Applies to: SolarFlow Home Controller SF-100 with firmware 1.4
+
+Issue
+Firmware 1.4 may show error E21 after the home Wi-Fi password changes. This alert applies when the mobile app reports E21 while the controller LED remains green.
+
+Approved action
+Reconnect the controller to Wi-Fi from the mobile app using the new network password. A hardware reset is not required for this alert.
+
+Escalation
+If the controller LED is red, a different error code is present, or E21 remains after reconnection, record the LED color and error code and contact an authorized technician.
